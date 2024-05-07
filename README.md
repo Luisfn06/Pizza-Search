@@ -5,13 +5,13 @@
 ## Descrição do Projeto
 O Projeto Pizza Search é um site desenvolvido como parte de um projeto acadêmico para permitir aos usuários montarem suas próprias pizzas de acordo com suas preferências e realizarem pedidos online. O site oferece uma interface amigável e intuitiva para personalização de pizzas, permitindo aos usuários escolherem ingredientes, tamanho e outras opções de personalização antes de fazer o pedido.
 
-##Envolvidos
--**Luis Fernando
--**Bianca Melgaco
--**Anthony
--**Maria Eduarda
--**Vania
--Vitor 
+## Envolvidos
+- **Luis Fernando
+- **Bianca Melgaco
+- **Anthony
+- **Maria Eduarda
+- **Vania
+- **Vitor 
 
 ## Funcionalidades Principais
 - **Personalização de Pizza**: Os usuários podem selecionar os ingredientes desejados para montar sua pizza personalizada.
