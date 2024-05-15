@@ -9,6 +9,13 @@ header{
     width: 100% auto;
     opacity: 0.8;
 }
+.content {
+  padding-top: 88px;
+
+}
+#pizzaMetade{
+ width: 100%;
+}
 
 .textoMeio{
   color: aliceblue;
