@@ -1,12 +1,38 @@
-body{
+#body{
     margin: 0;
     padding: 0;
+    
 }
 header{
     background-color: rgb(139, 21, 21);
     position: fixed;
     width: 100% auto;
     opacity: 0.8;
+}
+
+.textoMeio{
+  color: aliceblue;
+  margin: 70px 60px 20px 60px;
+  padding: 0 0 100px 0 ;
+  text-align: start;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  
+}
+.tituloMeio{
+  color: aliceblue;
+  text-align: start;
+  padding: 100px 10px 0 60px;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+}
+#divTextoVerde{
+  background-color: rgb(33, 109, 58);
+
+}
+#divTextoAmarelo{
+  background-color: #cb9a5c;
+
 }
 
 .gallery {

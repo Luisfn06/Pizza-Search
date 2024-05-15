@@ -13,18 +13,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="body">
   <header style="z-index: 1; width: 100%;">
 
     <nav class="navbar navbar-expand-lg" style="width: 100% auto;">
       <div>
-        <img src="img/Monte sua pizza!_20240430_204143_0000.png" alt="" class="text-light" style="width: 200px; height: 80px;">
+        <img src="img/Monte sua pizza!_20240430_204143_0000.png" alt="" class="text-light"
+          style="width: 200px; height: 80px;">
       </div>
       <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse text-end me-2" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -50,14 +51,25 @@
       </div>
       <div class="d-none d-lg-block ml-auto">
         <a href="login.html" target="_blank"><button type="button" class="btn btn-outline-light me-5">Login</button></a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+          class="bi bi-moon-fill text-dark me-5" viewBox="0 0 16 16" id="mudarTemaEscuro">
+          <path
+            d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+          class="bi bi-sun me-5 text-light" viewBox="0 0 16 16" id="mudarTemaClaro">
+          <path
+            d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
+        </svg>
       </div>
+
     </nav>
-    
+
 
   </header>
 
   <main>
-    <img src="img/g (2).png" alt="" class="w-100" style="width: 100%;">
+    <img src="img/pizza.metade.png.png" alt="" class="" style="width: 100%;">
 
 
     <div class="text-center m-5">
@@ -75,10 +87,51 @@
           <img src="img/Design sem nome.png" class="gallery__img" alt="Image 1">
         </figure>
         <figure class="gallery__item gallery__item--meio2">
-          <img src="img/Design sem nome (6).png" class="gallery__img" alt="Image 2">
+          <!-- <img src="img/Design sem nome (6).png" class="gallery__img" alt="Image 2"> -->
+          <div class="gallery__img" id="divTextoVerde" alt="Image 2">
+            <h1 class="tituloMeio">ÓTIMO CUSTO BENEFÍCIO</h1>
+            <p class="textoMeio">NA NOSSA PLATAFORMA,
+              OFERECEMOS O MELHOR
+              CUSTO-BENEFÍCIO DA CIDADE!
+              SABOREIE PIZZAS DE ALTA
+              QUALIDADE A PREÇOS
+              ACESSIVEIS, SEM
+              COMPROMETER O SABOR OU A
+              QUALIDADE DOS INGREDIENTES.
+              AQUI, VALORIZAMOS SUA
+              CARTEIRA TANTO QUANTO SEU
+              PALADAR, PROPORCIONANDO
+              UMA EXPERIÊNCIA
+              GASTRONOMICA SATISFATÓRIA
+              SEM PESAR NO BOLSO. VENHA
+              NOS VISITAR E DESCUBRA COMO
+              É POSSIVEL DESFRUTAR DE UMA
+              DELICIOSA PIZZA SEM GASTAR
+              UMA FORTUNA.</p>
+          </div>
+
         </figure>
         <figure class="gallery__item gallery__item--meio3">
-          <img src="img/Design sem nome (5).png" class="gallery__img" alt="Image 3">
+          <div class="gallery__img" id="divTextoAmarelo" alt="Image 2">
+            <h1 class="tituloMeio">NA CONTRA MÃO DOS DELIVERIES</h1>
+            <p class="textoMeio">DESAFIANDO A NORMA DAS
+              PIZZARIAS TRADICIONAIS, NÓS
+              ABRAÇAMOS A SINGULARIDADE.
+              AQUI, NÃO SEGUIMOS A
+              CORRENTE, NÓS A
+              DESBRAVAMOS. NOSSA
+              ABORDAGEM DESAFIA O
+              CONVENCIONAL, CONVIDANDO
+              VOCÊ A EXPLORAR SABORES
+              INESPERADOS, COMBINAÇÕES
+              AUDACIOSAS E UMA
+              EXPERIÊNCIA CULINÁRIA
+              VERDADEIRAMENTE FORA DA
+              CAIXA. BEM-VINDO AO NOSSO
+              MUNDO, ONDE CADA MORDIDA
+              É UMA AVENTURA.</p>
+          </div>
+
         </figure>
         <figure class="gallery__item gallery__item--meio4">
           <img src="img/Design sem nome (4).png" class="gallery__img" alt="Image 4">
@@ -174,7 +227,7 @@
     </div>
     </div>
 
-   
+
     </div>
   </main>
 
@@ -192,7 +245,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
