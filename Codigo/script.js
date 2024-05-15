@@ -1,5 +1,5 @@
 var header = document.getElementById('header');
 
-header.addEventListener('abort', function(){
+header.addEventListener('click', function(){
 
-})
+});
