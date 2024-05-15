@@ -4,6 +4,9 @@ body{
 }
 header{
     background-color: rgb(139, 21, 21);
+    position: fixed;
+    width: 100% auto;
+    opacity: 0.8;
 }
 
 .gallery {
@@ -11,8 +14,6 @@ header{
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 0.5rem; 
-    
-    
   }
   
   .gallery__img {
