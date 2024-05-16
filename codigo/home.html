@@ -15,9 +15,8 @@
 
 
 
-<body id="body">
+<body id="body"> <!------------Header-------->
   <header style="z-index: 1; width: 100%;" id="header">
-
     <nav class="navbar navbar-expand-lg" style="width: 100% auto;">
       <div>
         <img src="img/Monte sua pizza!_20240430_204143_0000.png" alt="" class="text-light"
@@ -31,8 +30,8 @@
       <div class="collapse navbar-collapse text-end me-2" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <div>
-              <a class="text-light nav-link textoNav" aria-current="page" href="#">HOME</a>
+            <div> <!------------Links-------->
+              <a class="text-light nav-link textoNav " href="#">HOME</a>
           </li>
           <li class="nav-item">
             <a class="text-light nav-link textoNav " href="#">PIZZARIAS</a>
@@ -46,11 +45,10 @@
           <li class="nav-item">
             <a class="text-light nav-link textoNav " href="#">COBERTURA</a>
           </li>
-
         </ul>
-        <div class="d-lg-none ml-auto">
-          <a href="login.html" target="_blank" class="btn  "><svg xmlns="http://www.w3.org/2000/svg"
-              width="40" height="40" fill="currentColor" class="bi bi-person-fill text-light" viewBox="0 0 16 16">
+        <div class="d-lg-none ml-auto"> <!------------Icones-------->
+          <a href="login.html" target="_blank" class="btn  "><svg xmlns="http://www.w3.org/2000/svg" width="40"
+              height="40" fill="currentColor" class="bi bi-person-fill text-light" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
             </svg></a>
           <br>
@@ -67,8 +65,8 @@
         </div>
       </div>
       <div class="d-none d-lg-block ml-auto">
-        <a href="login.html" target="_blank" class="btn me-3"><svg xmlns="http://www.w3.org/2000/svg"
-            width="40" height="40" fill="currentColor" class="bi bi-person-fill text-light" viewBox="0 0 16 16">
+        <a href="login.html" target="_blank" class="btn me-3"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+            height="40" fill="currentColor" class="bi bi-person-fill text-light" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
           </svg></a>
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
@@ -84,11 +82,9 @@
         </svg>
       </div>
     </nav>
-
-
   </header>
 
-  <main>
+  <main> <!------------Pizza do Partida no Meio-------->
     <img src="img/pizza2.png" alt="" id="imagem" class="pizzaMeio">
     <div class="text-center m-5">
       <button type="button" class="btn btn-danger rounded-4"
@@ -99,14 +95,15 @@
         fatia! Escolha seus
         igredientes <br> favoritos e crie uma experiência gastronômica única, <br> personalizada e deliciosa!</p>
     </div>
-
+    <!---------Cards de chamado-------->
     <div class="container">
-      <div class="gallery">
+      <div class="gallery"> <!------------Card 1-------->
         <figure class="gallery__item gallery__item--meio1">
           <img src="img/Design sem nome.png" class="gallery__img" alt="Image 1">
         </figure>
+        <!------------Card2-------->
+
         <figure class="gallery__item gallery__item--meio2">
-          <!-- <img src="img/Design sem nome (6).png" class="gallery__img" alt="Image 2"> -->
           <div class="gallery__img" id="divTextoVerde" alt="Image 2">
             <h1 class="tituloMeio">ÓTIMO CUSTO BENEFÍCIO</h1>
             <p class="textoMeio">NA NOSSA PLATAFORMA,
@@ -128,8 +125,9 @@
               DELICIOSA PIZZA SEM GASTAR
               UMA FORTUNA.</p>
           </div>
-
         </figure>
+        <!------------Card3-------->
+
         <figure class="gallery__item gallery__item--meio3">
           <div class="gallery__img" id="divTextoAmarelo" alt="Image 2">
             <h1 class="tituloMeio">NA CONTRA MÃO DOS DELIVERIES</h1>
@@ -150,17 +148,18 @@
               MUNDO, ONDE CADA MORDIDA
               É UMA AVENTURA.</p>
           </div>
-
         </figure>
+        <!------------Card4-------->
+
         <figure class="gallery__item gallery__item--meio4">
           <img src="img/Design sem nome (4).png" class="gallery__img" alt="Image 4">
         </figure>
-
+        <!------------Fim Cards-------->
 
       </div>
     </div>
     </div>
-    <!--------------- Carrosel ------------------>
+    <!--------------- Carroseus ------------------>
     <div class="container my-5" style="align-items: center; justify-content: center;">
       <div id="carouselExampleCaptions" class="carousel slide ">
         <div class="carousel-indicators">
@@ -174,51 +173,60 @@
             aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
             aria-label="Slide 5"></button>
-        </div>
+        </div> <!------------Carrousel 1-------->
+
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/Carrosel1.png" class="d-block w-100 rounded-5 " id="imagensCarrosel" style="height: 500px;"
               alt="...">
             <div class="carousel-caption d-none d-md-block">
-
-
             </div>
           </div>
+          <!------------Carrousel 2-------->
+
           <div class="carousel-item">
             <img src="img/Carrosel2.png" class="d-block w-100 rounded-5" id="imagensCarrosel" style="height: 500px;"
               alt="...">
             <div class="carousel-caption d-none d-md-block">
-
-
             </div>
           </div>
+
+          <!------------Carrousel 3-------->
+
           <div class="carousel-item">
             <img src="img/Carrosel3.png" class="d-block w-100 rounded-5" id="imagensCarrosel" style="height: 500px;"
               alt="...">
             <div class="carousel-caption d-none d-md-block">
-
             </div>
           </div>
+
+          <!------------Carrousel 4-------->
+
           <div class="carousel-item">
             <img src="img/Carrosel4.png" class="d-block w-100 rounded-5" id="imagensCarrosel" style="height: 500px;"
               alt="...">
             <div class="carousel-caption d-none d-md-block">
-
             </div>
           </div>
+          <!------------Carrousel 5-------->
+
           <div class="carousel-item">
             <img src="img/Carrosel5.png" class="d-block w-100 rounded-5" id="imagensCarrosel" style="height: 500px;"
               alt="...">
             <div class="carousel-caption d-none d-md-block">
-
             </div>
           </div>
         </div>
+
+        <!------------Botão Voltar-------->
+
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon " aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
+        <!------------Botão Entrar-------->
+
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next">
           <span class="carousel-control-next-icon " aria-hidden="true"></span>
@@ -235,30 +243,30 @@
     </div>
 
     <div class="container">
-      <div class="gallery">
+      <div class="gallery"> <!------------Imagem 1-------->
+
         <figure class="gallery__item gallery__item--1">
           <img
             src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/06/02/istock-1303119992-sl8zi4z13mm0.jpg"
             class="gallery__img" alt="Image 1">
-        </figure>
+        </figure> <!------------Imagem 2-------->
         <figure class="gallery__item gallery__item--2">
           <img
             src="https://s2-g1.glbimg.com/mN9G8JPOYh1QL-l1fyRn87eMoT0=/0x0:1080x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/F/E/pUGQkwRSSNqb0PYAVz6A/pizza-sao-paulo.jpg"
             class="gallery__img" alt="Image 2">
-        </figure>
+        </figure> <!------------Imagem 3-------->
         <figure class="gallery__item gallery__item--3">
           <img src="img/Design sem nome (3).png" class="gallery__img" alt="Image 3">
-        </figure>
+        </figure> <!------------Imagem 4-------->
         <figure class="gallery__item gallery__item--4">
           <img src="img/Design sem nome (4).png" class="gallery__img" alt="Image 4">
-        </figure>
+        </figure> <!------------Imagem 5-------->
         <figure class="gallery__item gallery__item--5">
           <img src="https://www.saopaulopizzas.com.br/img/upload/source/img-02.webp" class="gallery__img" alt="Image 5">
-        </figure>
+        </figure> <!------------Imagem 6-------->
         <figure class="gallery__item gallery__item--6">
           <img src="img/Design sem nome (2).png" class="gallery__img" alt="Image 6">
         </figure>
-
       </div>
     </div>
     </div>
