@@ -4,16 +4,17 @@ var mudarTemaClaro = document.querySelectorAll('.mudarTemaClaro');
 var textoLiberdade = document.getElementById('textoLiberdade');
 var header = document.querySelector('header');
 var botaoNavbar = document.getElementById('botaoNavbar');
+var voltarTopoLink = document.getElementById('voltarTopoLink');
 
-// Adicione o event listener a cada ícone do sol para o clique
+
+
+
 mudarTemaEscuro.forEach(function(icon) {
     icon.addEventListener('click', function() {
-        // Oculta todos os ícones do sol
         mudarTemaEscuro.forEach(function(icon) {
             icon.style.display = 'none';
         });
 
-        // Muda o tema para escuro
         body.style.backgroundColor = 'black';
         header.style.backgroundColor = 'black';
         mudarTemaClaro.forEach(function(icon) {
@@ -25,20 +26,19 @@ mudarTemaEscuro.forEach(function(icon) {
     });
 });
 
-// Adicione o event listener a cada ícone da lua para o clique
 mudarTemaClaro.forEach(function(icon) {
     icon.addEventListener('click', function() {
-        // Oculta todos os ícones da lua
         mudarTemaClaro.forEach(function(icon) {
             icon.style.display = 'none';
         });
 
-        // Muda o tema para claro
         body.style.backgroundColor = 'white';
         header.style.backgroundColor = 'rgb(139, 21, 21)';
         mudarTemaEscuro.forEach(function(icon) {
             icon.style.display = 'inline';
+           
         });
         textoLiberdade.style.color = 'black';
     });
 });
+
