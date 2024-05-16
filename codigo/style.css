@@ -10,7 +10,7 @@ header{
     opacity: 0.8;
 }
 .content {
-  padding-top: 88px;
+  padding-top: 129px;
 
 }
 #pizzaMetade{
@@ -26,6 +26,7 @@ header{
   font-family: "Playfair Display", serif;
   
 }
+
 .tituloMeio{
   color: aliceblue;
   text-align: start;
@@ -247,9 +248,6 @@ header{
         grid-row-start: 42;
         grid-row-end: 52;
       
-        
-        /* grid-column: 1 / span 4; */
-        /* grid-row: 6 / span 3; */
       }
       
        .gallery__item--6 {
@@ -258,7 +256,9 @@ header{
         grid-row-start: 52;
         grid-row-end: 62;
        }  
-     
+       
+       /* .slide{
+        display: none;
+       } */
 
   }
-  
