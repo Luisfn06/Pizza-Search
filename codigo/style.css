@@ -18,9 +18,7 @@ header {
 
 #imagem {
   opacity: 0;
-  /* Começa invisível */
   animation: fadeIn 2s forwards;
-  /* Animação de aparecimento */
 }
 
 
