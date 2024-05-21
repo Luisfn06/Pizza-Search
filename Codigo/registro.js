@@ -18,11 +18,11 @@ registrar.addEventListener('click', function(event){
         "Senha": senha
     };
 
-    // Armazenando os dados do usuário no localStorage
+
     localStorage.setItem('usuario', JSON.stringify(cadastro));
 
     alert("Cadastro realizado com sucesso!");
 
-    // Redirecionando para a página de login
+
     window.location.href = "login.html";
 });
