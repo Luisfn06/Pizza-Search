@@ -262,3 +262,23 @@ header{
 
   }
   
+
+  #parceiro{
+    background-image: url(img/FundoParceiro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.8;
+    height: 5000px;
+    
+    width: 100%;
+  }
+  #textoParceiro{
+    opacity: 1;
+
+text-align: center;
+width: 100%;
+height: 100%;
+color: white;
+font-family: "Playfair Display", serif;
+padding-top: 250px;
+  }
