@@ -2,11 +2,88 @@ body{
     margin: 0;
     padding: 0;
 }
-header{
-    background-color: rgb(139, 21, 21);
-    position: fixed;
-    width: 100% auto;
-    opacity: 0.8;
+
+header {
+  background-color: rgb(139, 21, 21);
+  position: fixed;
+  width: 100% auto;
+  opacity: 0.8;
+}
+
+.pizzaMeio {
+  padding-top: 127px;
+  width: 100%;
+}
+
+#imagem {
+  opacity: 0;
+  /* Começa invisível */
+  animation: fadeIn 2s forwards;
+  /* Animação de aparecimento */
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+    /* Começa acima */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    /* Termina na posição normal */
+  }
+}
+
+/* .textoNav{
+ transform: scale(0.8);
+} */
+
+
+.textoMeio {
+  color: aliceblue;
+  margin: 70px 60px 20px 60px;
+  padding: 0 0 100px 0;
+  text-align: start;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+
+}
+
+.tituloMeio {
+  color: aliceblue;
+  text-align: start;
+  padding: 100px 10px 0 60px;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+}
+
+#divTextoVerde {
+  background-color: rgb(33, 109, 58);
+
+}
+
+#divTextoAmarelo {
+  background-color: #cb9a5c;
+
+}
+
+.gallery__item {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.gallery__img {
+  width: 300px;
+  height: auto;
+}
+
+.gallery__item:hover {
+  transform: translateY(-50px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .gallery {
