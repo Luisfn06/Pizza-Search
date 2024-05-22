@@ -14,7 +14,7 @@ mudarTemaEscuro.forEach(function(icon) {
         mudarTemaEscuro.forEach(function(icon) {
             icon.style.display = 'none';
         });
-
+        
         body.style.backgroundColor = 'black';
         header.style.backgroundColor = 'black';
         mudarTemaClaro.forEach(function(icon) {
@@ -31,7 +31,7 @@ mudarTemaClaro.forEach(function(icon) {
         mudarTemaClaro.forEach(function(icon) {
             icon.style.display = 'none';
         });
-
+        botaoNavbar.style.backgroundColor = '';
         body.style.backgroundColor = 'white';
         header.style.backgroundColor = 'rgb(139, 21, 21)';
         mudarTemaEscuro.forEach(function(icon) {
