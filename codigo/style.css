@@ -1,12 +1,45 @@
-body{
+#body{
     margin: 0;
     padding: 0;
+    
 }
 header{
     background-color: rgb(139, 21, 21);
     position: fixed;
     width: 100% auto;
     opacity: 0.8;
+}
+.content {
+  padding-top: 88px;
+
+}
+#pizzaMetade{
+ width: 100%;
+}
+
+.textoMeio{
+  color: aliceblue;
+  margin: 70px 60px 20px 60px;
+  padding: 0 0 100px 0 ;
+  text-align: start;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  
+}
+.tituloMeio{
+  color: aliceblue;
+  text-align: start;
+  padding: 100px 10px 0 60px;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+}
+#divTextoVerde{
+  background-color: rgb(33, 109, 58);
+
+}
+#divTextoAmarelo{
+  background-color: #cb9a5c;
+
 }
 
 .gallery {
@@ -229,3 +262,23 @@ header{
 
   }
   
+
+  #parceiro{
+    background-image: url(img/FundoParceiro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.8;
+    height: 5000px;
+    
+    width: 100%;
+  }
+  #textoParceiro{
+    opacity: 1;
+
+text-align: center;
+width: 100%;
+height: 100%;
+color: white;
+font-family: "Playfair Display", serif;
+padding-top: 250px;
+  }
